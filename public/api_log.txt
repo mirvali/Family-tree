@@ -1,0 +1,16 @@
+POST /person HTTP/1.1
+Accept:          */*
+Accept-Encoding: gzip, deflate
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Connection:      Keep-Alive
+Content-Length:  80
+Content-Type:    text/plain;charset=UTF-8
+Host:            34.227.56.212
+User-Agent:      Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0
+
+{
+"fname":"Mirvali",
+"lname":"Malikov",
+"birth_year":"1979",
+"parent_id": null
+}
