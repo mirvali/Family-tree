@@ -19,7 +19,7 @@ $router->get('/', function () use ($router) {
 /**
  * Routes for resource person
  */
-//$router->get('person', 'PersonController@getPersons');
+$router->get('persons', 'PersonController@getPersons');
 $router->get('person/{id}', 'PersonController@getPerson');
 $router->post('person', 'PersonController@addPerson');
 //$router->put('person/{id}', 'PersonController@updatePerson');

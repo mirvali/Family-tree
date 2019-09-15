@@ -22,7 +22,6 @@ class PersonService
 
     public function create(Person $person)
     {
-	file_put_contents('log.txt', serialize($person), FILE_APPEND);
         return $this->personRepository->createPerson($person);
     }
 
